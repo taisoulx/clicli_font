@@ -1,6 +1,6 @@
 <template>
 
-<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" router>
+<el-menu :default-active="activeIndex" class="el-menu-demo topbar" mode="horizontal" @select="handleSelect" router>
   <el-menu-item index="/">处理中心</el-menu-item>
   <el-menu-item index="/postvideo">投稿页面</el-menu-item>
   <el-menu-item index="/about" >消息中心</el-menu-item>
@@ -23,3 +23,8 @@
     }
   }
 </script>
+<style lang="css">
+    .topbar{
+        margin-bottom: 20px;
+    }
+</style>
